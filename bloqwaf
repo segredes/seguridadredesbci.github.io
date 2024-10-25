@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Error en la pagina</title>
+    <style>
+      body { background-color: white; font-family: arial, sans-serif;}
+      .contenedor {width: 600px; margin: 0 auto; border: 1px solid #f0f0f0;}
+      .inner {margin: 20px 20px 40px 20px;}
+      .cf-error-1001 { margin-left: 100px; margin-right: 100px; font-size: 10px; font-style: italic; background-color: transparent; }
+      .logo {width: 120px; height: auto;}
+      p {color: #666; font-size: 14px;}
+      .colores {width: 100%; height: 5px; margin-top: 30px;}
+      .colores div {width: 25%; height: 5px; float: left; box-sizing: border-box;}
+      .ve {background-color: #00a94b;}
+      .ro {background-color: #f33d33;}
+      .az {background-color: #007ebf;}
+      .am {background-color: #fbed00;}
+    </style>
+</head>
+  <body>
+    <div class="contenedor">
+      <div class="inner">
+        <p>
+          <img class="logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTY5LjMgNjcuOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTY5LjMgNjcuOCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzIzMUYyMCIgZD0iTTc3LjIsMzMuN2MtMS4xLDAtMS42LDAuNC0xLjYsMS4zdjIwLjZjMCw1LDMuNCw3LjYsMTAuMyw3LjYNCgljNS40LDAsOS42LTEuNSwxMi40LTQuNmMyLjUtMi43LDMuOC02LjMsMy44LTEwLjdjMC00LjQtMS41LTcuOC00LjQtMTAuNGMtMi45LTIuNS03LjEtMy44LTEyLjYtMy44SDc3LjJ6IE05OC4xLDMxLjENCgljMTEuMSwxLjgsMTYuNiw3LjYsMTYuNiwxNy4yYzAsNS41LTIuMiwxMC02LjYsMTMuM2MtNC40LDMuNC0xMC4xLDUtMTcuMSw1Yy0yLjYsMC0yMS45LDAuMS0yNy4xLDAuMVYyLjJjMy40LDAsMTEuNiwwLjMsMTYsMC4zDQoJYzIzLjctMC4zLDMwLjUsNS4xLDMwLjUsMTUuNEMxMTAuNSwyNC4zLDEwNi40LDI4LjcsOTguMSwzMS4xIE03NS42LDI3LjNjMCwxLjQsMC4yLDIuMywwLjYsMi42YzAuNCwwLjMsMS41LDAuNSwzLjMsMC41aDEuNw0KCWMxMS41LDAsMTcuMi00LDE3LjItMTEuOWMwLTguNS01LjItMTIuNy0xNS41LTEyLjdjLTIuOCwwLTQuNiwwLjMtNS42LDAuOGMtMS4yLDAuNi0xLjcsMi0xLjcsNC4xVjI3LjN6Ii8+DQo8cGF0aCBmaWxsPSIjMjMxRjIwIiBkPSJNMTQxLjYsMjUuMmMzLDAsNS44LDAuNCw4LjUsMS4xYzMuNiwxLDUuNCwyLjUsNS40LDQuM2MwLDQuOC0xLjEsNy4zLTMuMiw3LjNjLTEsMC0yLjEtMC45LTMuMi0yLjYNCgljLTAuMS0wLjItMC4zLTAuNS0wLjYtMS4xYy0yLjYtNC41LTUuMy02LjgtOC4xLTYuOGMtNC4yLDAtNy41LDIuMy05LjksNi44Yy0xLjgsMy41LTIuNyw3LTIuNywxMC43YzAsNC42LDEuMiw4LjUsMy42LDExLjcNCgljMyw0LDcuMyw2LDEzLDZjMS42LDAsMy45LTAuNiw2LjctMS45YzIuOS0xLjMsNC4xLTEuOSwzLjctMS45YzEuMSwwLDEuNiwwLjQsMS42LDEuMmMwLDItMi4yLDMuOC02LjYsNS40DQoJYy0zLjgsMS40LTcuMiwyLjEtMTAuMiwyLjFjLTcuMywwLTEyLjktMi4yLTE3LTYuN2MtMy41LTMuOS01LjMtOC42LTUuMy0xNC4zYzAtNiwyLTExLDYtMTQuOUMxMjcuOCwyNy41LDEzMy45LDI1LjIsMTQxLjYsMjUuMiIvPg0KPHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTE1OS44LDY2LjdoOS42bC0wLjEtMzguOWMwLDAtMS43LDAtNC42LTAuM2MtMi4xLTAuMi00LjktMC4zLTQuOS0wLjNWNjYuN3oiLz4NCjxwYXRoIGZpbGw9IiMyMzFGMjAiIGQ9Ik0xNTkuOCwxNy42YzAtMi45LDIuMS01LjIsNC42LTUuMmMyLjYsMCw0LjYsMi4zLDQuNiw1LjJjMCwyLjktMi4xLDUuMi00LjYsNS4yDQoJQzE2MS44LDIyLjgsMTU5LjgsMjAuNSwxNTkuOCwxNy42Ii8+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI0VGNDIzNiIgZD0iTTAuNCw1Ny45YzEuNy01LDUuOS04LjIsNS45LTguMnMzLjQtMi41LDUuNi00DQoJYzIuMy0xLjUsNS43LTMuNyw1LjctMy43czcuMy00LjMsOS01LjVsMCwwYzEsMC4yLDIuMiwwLjQsMy4zLDAuNWMwLDAsMy4xLDAuMiwzLjktMS42YzAuOS0xLjgtMS43LTIuMi0xLjctMi4yTDMxLjcsMzMNCgljMS0wLjgsMi4yLTEuNiwzLjItMi42YzMuNC0zLDYuMy05LjYsNi4zLTkuNmwyLjctNi4zYzAsMCwxLjktMy45LDUuOC0zLjJjNSwwLjksNC43LDYuMiw0LjcsNi4yYy0xLjIsOC41LTcuOSwxMy43LTEwLjIsMTUuMg0KCUM0MC4zLDM1LDI2LjIsNDMuMiwyNi4yLDQzLjJzLTcuNyw0LjktMTIuNiwxMGMtNC45LDUtNS41LDcuMi02LjksMTBDNS4yLDY2LDUsNjYuNSwzLjIsNjYuNkgzLjFDMS4yLDY2LjYtMSw2Mi44LDAuNCw1Ny45Ii8+DQo8cGF0aCBmaWxsPSIjMTJBODREIiBkPSJNNDcuNiw1OS43Yy0xLjgtMS40LTEuMy0zLjgtMS4zLTMuOHMwLjEtMi4yLTAuNC00LjdjLTAuNS0yLjUtMS4xLTMuOS0xLjEtMy45cy0wLjMtMS40LTIuNC0yLjcNCgljLTIuMS0xLjItNC4yLTEuNi00LjctMy4yYy0wLjUtMS42LDAuNi0yLjgsMi4yLTMuNGMxLjYtMC41LDQuNi0wLjksNy42LDEuNGMzLDIuMyw0LjUsNy41LDQuNSw3LjVzMS43LDQuNCwxLjgsNi4zDQoJYzAsMCwwLjksMi44LTAuOCw1YzAsMC0xLjMsMS42LTMsMkM0OS4zLDYwLjQsNDguNCw2MC4zLDQ3LjYsNTkuNyIvPg0KPHBhdGggZmlsbD0iIzEyN0RDMiIgZD0iTTMyLjUsMzljLTAuNy0wLjMtMS4zLTAuNi0yLTAuOWMtNS4zLTIuNC03LjgtNC40LTcuOC00LjRzLTcuNi01LjItOS40LTEzLjRjLTEuOS02LjQsMi4yLTE1LjcsMi4yLTE1LjcNCglzMS40LTYsOC00LjRjNi43LDEuNiwzLjcsOC4xLDMuNyw4LjFjLTAuOSwxLjktMi44LDEyLjEtMi44LDEyLjFjLTAuNiw5LjksNy4yLDEyLjIsNy4yLDEyLjJsNC41LDIuMWMwLDAsMi43LDEuMywxLjEsMy4zDQoJYy0xLjMsMS43LTMuOSwxLjEtNC43LDAuOUMzMi42LDM5LDMyLjUsMzksMzIuNSwzOSIvPg0KPHBhdGggZmlsbD0iI0ZERTUwMCIgZD0iTTEyLjMsNjUuMmMwLDAtMS4zLTEsMC4yLTQuNmMyLjEtNC44LDYuOS04LjgsNi45LTguOHMxMS40LTcuMSwxNC4yLTguMWMyLjgtMSw0LjYsMC4yLDQuNiwwLjINCglzNC4zLDIuOSw0LjUsOS4zYzAuMiw2LjQtNC4yLDguNy00LjIsOC43cy00LjEsMy4xLTE0LjYsNGMtNS4xLDAuOS04LDAuOS05LjYsMC41QzEyLjMsNjYuMSwxMi4zLDY1LjIsMTIuMyw2NS4yIi8+DQo8L3N2Zz4NCg==" alt="Banco Bci">
+        </p>
+        <h2>Estimado Usuario</h2>
+        <p>Ha sido bloqueado por nuestra política de seguridad.</p>
+        <p>Si tiene dudas de este bloqueo no dude en contactarnos a travez de los canales de soporte autorizados y entregar la siguiente IP para revision:</p><h2>::CLIENT_IP::</h2>
+        <hr/>
+<font size=-2>
+<script>
+var req = new XMLHttpRequest();
+req.open('GET', document.location, false);
+req.send(null);
+var headers = req.getAllResponseHeaders().toLowerCase();
+document.write(headers);
+</script>
+</font>
+      </div>
+      <div class="colores">
+        <div class="ve"></div>
+        <div class="ro"></div>
+        <div class="az"></div>
+        <div class="am"></div>
+      </div>
+    </div>
+  </body>
+</html>
