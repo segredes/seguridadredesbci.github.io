@@ -1,39 +1,117 @@
 <html>
   <head>
-    <title>Error en la pagina</title>
+    <title>Comprobación Adicional</title>
     <style>
-      body { background-color: white; font-family: arial, sans-serif;}
-      .contenedor {width: 600px; margin: 0 auto; border: 1px solid #f0f0f0;}
-      .inner {margin: 20px 20px 40px 20px;}
-      .cf-error-1001 { margin-left: 100px; margin-right: 100px; font-size: 10px; font-style: italic; background-color: transparent; }
-      .logo {width: 120px; height: auto;}
-      p {color: #666; font-size: 14px;}
-      .colores {width: 100%; height: 5px; margin-top: 30px;}
-      .colores div {width: 25%; height: 5px; float: left; box-sizing: border-box;}
-      .ve {background-color: #00a94b;}
-      .ro {background-color: #f33d33;}
-      .az {background-color: #007ebf;}
-      .am {background-color: #fbed00;}
+      body {
+        background-color: #FFFFFF;
+        font-family: 'Overpass', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+     /* s: bci_kit_fonts_css */
+/* Overpass */
+      @font-face {
+        font-family: "Overpass";
+        font-style: normal;
+        font-weight: 200;
+        src: url('https://cdn3.bci.cl/uploads/b57fcca4-969f-465b-8848-ae466525a788/original/Overpass-ExtraLight.ttf') format('truetype');
+        font-display: swap;
+      }
+
+
+    @font-face {
+      font-family: "Overpass";
+      font-style: normal;
+      font-weight: 400;
+      src: url('https://cdn3.bci.cl/uploads/2cc449c2-ade4-4571-b147-cd39fe6d46e5/original/Overpass-Regular.ttf') format('truetype');
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Overpass";
+      font-style: normal;
+      font-weight: 600;
+      src: url('https://cdn3.bci.cl/uploads/64f38795-8eb5-4382-88a0-4aa7edde7fe0/original/Overpass-SemiBold.ttf') format('truetype');
+      font-display: swap;
+    }
+
+
+    @font-face {
+      font-family: "Overpass";
+      font-style: normal;
+      font-weight: 700;
+      src: url('https://cdn3.bci.cl/uploads/8fb7d528-a617-4e50-9c87-c8923e8053ab/original/Overpass-Bold.ttf') format('truetype');
+      font-display: swap;
+    }
+      
+      .contenedor {
+        width: 100%;
+        margin: 50px auto;
+        border: 1px solid #f0f0f0;
+        border-radius: 12px;
+        background-color: #fff;
+        box-sizing: border-box;
+      }
+      @media (min-width: 600px) {
+        .contenedor {
+          max-width: 600px;
+        }
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+      }
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+      .inner {
+        padding: 0px 24px 24px 24px;
+      }
+      h2 {
+        color: #37474F;
+        font-size: 34px;
+        font-weight: 600;
+        margin:0;
+
+      }
+      h3 {
+        color: #37474F;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding-top: 8px;
+      }
+      p {
+        color: #546E7A;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 8px;
+              }
+      .captcha-box {
+        text-align: left;
+ 
+      }
     </style>
   </head>
-
   <body>
     <div class="contenedor">
-      <div class="inner">
-        <p>
-          <img class="logo" src="https://bci.modyocdn.com/uploads/1f809a87-5450-4088-a73d-9efb17a61604/original/logo-bci.svg" alt="Banco Bci">
-        </p>
-        <h2>Estimado Usuario</h2>
-        <p>Por pol&iacute;tica de seguridad, se le solicita una comprobaci&oacute;n adicional.</p>
-        <hr/>
-        <h3>Por favor resuelva el siguiente desaf&iacute;o:</h3>
-        <div class="main-wrapper" role="main"><div class="main-content"><h1><img src="./Error en la pagina_files/favicon.ico">example.com</h1><h2 id="challenge-running">Checking if the site connection is secure</h2><div id="challenge-stage"><div id="turnstile-wrapper"></div></div><div id="challenge-body-text">example.com needs to review the security of your connection before proceeding.</div><div class="footer"><div class="footer-inner"><div><div class="ray-id">Ray ID: <code>000000000000000</code></div></div><div id="footer-text">Performance &amp; security by <a rel="noopener noreferrer" href="https://www.cloudflare.com/?utm_source=challenge&amp;utm_campaign=p" target="_blank">Cloudflare</a></div></div></div><noscript><div id="challenge-error-title"><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></div></noscript></div></div>
+      <div class="header">
+        <img class="logo" src="https://cdn3.bci.cl/uploads/65cc2d6e-56d7-45d3-9a68-5ce4d7c15d74/original/header.png" alt="Banco Bci">
       </div>
-      <div class="colores">
-        <div class="ve"></div>
-        <div class="ro"></div>
-        <div class="az"></div>
-        <div class="am"></div>
+      <div class="inner">
+        <h2>Estimado Usuario</h2>
+        <p>Por política de seguridad, se le solicita una comprobación adicional.</p>
+        <h3>Por favor resuelva el siguiente desafío:</h3>
+        <div class="captcha-box">
+          <h2>::CAPTCHA_BOX::</h2>
+        </div>
       </div>
     </div>
   </body>
